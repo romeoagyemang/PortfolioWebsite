@@ -33,8 +33,8 @@ Before you begin, ensure you have the following installed:
 
 ## Project Setup 
 
-git clone https://github.com/romeoagyemang/PortfolioWebsite.git
-cd PortfolioWebsite 
+- git clone https://github.com/romeoagyemang/PortfolioWebsite.git
+- cd PortfolioWebsite 
 
 yarn install
 
