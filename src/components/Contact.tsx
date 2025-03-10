@@ -12,21 +12,21 @@ const Contact = () => {
         
         <div className="flex justify-center mb-8">
           <a 
-            href="mailto:reachsagarshah@gmail.com" 
+            href="mailto:agyemangromeo74@gmail.com" 
             className="flex items-center justify-center bg-black text-white px-6 py-3 rounded-md hover:bg-gray-800 transition-colors"
           >
             <Mail size={20} className="mr-2" />
-            reachsagarshah@gmail.com
+            agyemangromeo74@gmail.com
           </a>
         </div>
         
         <div className="flex justify-center">
           <a 
-            href="tel:+919898000565" 
+            href="tel:+233509744732" 
             className="flex items-center justify-center text-gray-700 hover:text-black"
           >
             <Phone size={20} className="mr-2" />
-            +91 9898000565
+            +233509744732 - +233595060480
           </a>
         </div>
       </div>

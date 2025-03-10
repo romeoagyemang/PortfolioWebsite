@@ -32,7 +32,7 @@ const ExperienceItem = ({ company, logo, role, period, description }: Experience
 const Experience = () => {
   const experiences = [
     {
-      company: 'Upwork',
+      company: 'Ai Agency Marketplace',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Upwork-logo.svg/320px-Upwork-logo.svg.png',
       role: 'Sr. Frontend Developer',
       period: 'Nov 2021 - Present',
@@ -44,7 +44,7 @@ const Experience = () => {
       ]
     },
     {
-      company: 'Upwork',
+      company: 'College League App',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Upwork-logo.svg/320px-Upwork-logo.svg.png',
       role: 'Team Lead',
       period: 'Jul 2019 - Oct 2021',
@@ -56,7 +56,7 @@ const Experience = () => {
       ]
     },
     {
-      company: 'Upwork',
+      company: 'The Fashion District',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Upwork-logo.svg/320px-Upwork-logo.svg.png',
       role: 'Full Stack Developer',
       period: 'Jan 2018 - Jun 2019',

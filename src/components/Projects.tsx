@@ -47,7 +47,7 @@ const Projects = () => {
     {
       title: 'Finki',
       description: 'Cryptocurrency dashboard that helps users track their investments and market trends in real-time.',
-      image: 'https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80',
+      image: '',
       tags: ['React', 'Redux', 'TailwindCSS', 'Firebase'],
       demoLink: '#',
       githubLink: '#'
@@ -55,7 +55,7 @@ const Projects = () => {
     {
       title: 'Finki',
       description: 'Cryptocurrency dashboard that helps users track their investments and market trends in real-time.',
-      image: 'https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80',
+      image: '',
       tags: ['React', 'Redux', 'TailwindCSS', 'Firebase'],
       demoLink: '#',
       githubLink: '#'
@@ -63,7 +63,7 @@ const Projects = () => {
     {
       title: 'Finki',
       description: 'Cryptocurrency dashboard that helps users track their investments and market trends in real-time.',
-      image: 'https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80',
+      image: '',
       tags: ['React', 'Redux', 'TailwindCSS', 'Firebase'],
       demoLink: '#',
       githubLink: '#'

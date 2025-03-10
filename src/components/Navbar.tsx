@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
@@ -31,8 +31,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <Link to="hero" smooth={true} duration={500} className="cursor-pointer">
-              <span className="text-xl font-bold">&lt;SS /&gt;</span>
+            <Link to="/hero" className="cursor-pointer">
+              <span className="text-xl font-bold">&lt;DevSnowden&gt;</span>
             </Link>
           </div>
 
@@ -41,9 +41,7 @@ const Navbar = () => {
             {navLinks.map((link) => (
               <Link
                 key={link.name}
-                to={link.to}
-                smooth={true}
-                duration={500}
+                to={`/${link.to}`}
                 className="text-gray-600 hover:text-gray-900 cursor-pointer"
               >
                 {link.name}
@@ -76,8 +74,6 @@ const Navbar = () => {
                 <Link
                   key={link.name}
                   to={link.to}
-                  smooth={true}
-                  duration={500}
                   className="text-gray-600 hover:text-gray-900 cursor-pointer"
                   onClick={() => setIsOpen(false)}
                 >
